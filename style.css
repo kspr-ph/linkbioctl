@@ -18,8 +18,7 @@ body{
         border: 3px solid white;
         padding: 10px;
         border-radius: 40px;
-        min-width: 250px;
-        max-width: 300px;
+        width: 270px;
     }
     img{
         display: grid;
