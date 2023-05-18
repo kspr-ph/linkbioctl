@@ -1,0 +1,104 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(media/wppr.svg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media (max-width: 767px){
+    .main-context{
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 3px solid white;
+        margin: 40px auto;
+        padding: 10px;
+        border-radius: 40px;
+        min-width: 250px;
+        max-width: 300px;
+    }
+    img{
+        display: grid;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;    
+        width: 100px;
+        text-align: center;
+    }
+    .ctl{
+        text-align: center;
+        font-size: 25px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        color: #fff;
+        text-shadow: 1px 1px 3px #00ff37;
+    }
+    main{
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 200px;
+    }
+    .wpp,.insta,.face,.website{
+        text-align: center;
+        background-color: white;
+        margin: 15px auto;
+        padding: 5px;
+        border-radius: 15px;
+        max-width: 200px;
+        box-shadow: 3px 3px rgba(20, 119, 42, 0.555);
+    }
+    .website{
+        margin-bottom: 25px;
+    }
+    a{
+        position: relative;
+        text-decoration: none;
+        color: #14772a;
+        font-weight: bolder;
+    }
+    .a-main:hover{
+        color: rgb(1, 41, 10);
+        font-size: 20px;
+    }
+    .main-footer{
+        font-size: 10px;
+        font-weight: 100;
+        padding-bottom: 10px;
+        color: white;
+    }
+    .a-footer{
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+    .wppimg{
+        text-align: center;
+        width: 25px;
+        margin: 0 auto;
+        padding: 0;
+        padding-bottom: 5px;
+    }
+    .instaimg{
+        text-align: center;
+        width: 25px;
+        margin: 0 auto;
+        padding: 0;
+        padding-bottom: 5px;
+    }
+    .faceimg{
+        text-align: center;
+        width: 25px;
+        margin: 0 auto;
+        padding: 0;
+        padding-bottom: 5px;
+    }
+    .webimg{
+        text-align: center;
+        width: 25px;
+        margin: 0 auto;
+        padding: 0;
+        padding-bottom: 5px;
+    }
+}
+    
