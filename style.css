@@ -10,10 +10,12 @@ body{
 
 @media (max-width: 767px){
     .main-context{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
         background-color: rgba(0, 0, 0, 0.5);
         border: 3px solid white;
-        margin: 40px auto;
-        margin-top: 60px;
         padding: 10px;
         border-radius: 40px;
         min-width: 250px;
